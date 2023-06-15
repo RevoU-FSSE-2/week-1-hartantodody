@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script type="javascript" src="hello.js"></script>
     <title>Dody's Profile!</title>
 </head>
@@ -32,26 +32,12 @@
         </br>
         <form name="input-name" onsubmit="return guestName()">
             <label for="nickname" class="center">Please type your name below!</label>
-            <input type="text" class="center input-text" name="nickname">
+            <input type="text" class="center input-text" name="nickname" placeholder="Type your name here!">
             <button type="submit" class="hello-button center">Say Hello!</button>
             <p class="hello-text">Hello <span id="guest-nickname"></span>!! &#128516</p>
         </form>
 
-        <script>
-            function guestName(){
-                var name = document.forms["input-name"]["nickname"].value;
-
-                if (name == ""){
-                    alert("Name cannot be empty!");
-                    return false;
-                }
-                // NOTE: HAPUS COMMENT LINE 49-50 KALAU MAU BUAT MASUK KE P HELLO DI LINE 37
-                // document.getElementById("guest-nickname").innerText = name;
-                // return false;
-
-                // COMMENT DI BAWAH KALAU MAU AKTIFIN FUNGSI DI LINE 49-50
-                alert("Hello " + name + ", Welcome to my page!! XD");
-            }
+        <script src="/week-1-hartantodody/hello.js">
         </script>
         <!-- END OF MAIN CONTENT -->
     
