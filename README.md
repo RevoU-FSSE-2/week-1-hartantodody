@@ -6,9 +6,12 @@ Here is the preview of the website!
 
 Here is what i learned in this 1st week assignment :
 1. How to structure a simple webpage using **HTML**.
-2. Giving some colors for the website to looks more appealing and nice!
-3. Trying basic javascript to make alert button (added some modifications from what i have learned XD).
+2. Giving some colors for the website to looks more appealing and nice with **CSS**!
+3. Trying basic **JavaScript** to make alert button (added some modifications from what i have learned XD).
 4. And writing markdown for the first time in my life.
+
+> What can you actually do in my page? Just simply type your name inside the text input, and then press the button below to make me greet you from the alert :D
+
 
 Wanna try some of my page feature? [Click here](https://dodyhartanto-assignment1.netlify.app/?nickname=dody) to go to my page!
 
